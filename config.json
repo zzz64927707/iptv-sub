@@ -1,0 +1,75 @@
+{
+  "sources": [
+    "https://gh-proxy.com/raw.githubusercontent.com/Guovin/iptv-api/gd/output/result.m3u",
+    "https://cdn.jsdelivr.net/gh/Guovin/iptv-api@gd/output/result.m3u",
+    "https://cdn.jsdelivr.net/gh/suxuang/myIPTV@main/ipv4.m3u",
+    "https://cdn.jsdelivr.net/gh/vbskycn/iptv@master/tv/iptv4.m3u",
+    "https://cdn.jsdelivr.net/gh/YueChan/Live@main/IPTV.m3u",
+    "https://cdn.jsdelivr.net/gh/wwb521/live@main/tv.m3u",
+    "https://raw.gitmirror.com/Guovin/iptv-api/gd/output/result.m3u"
+  ],
+  "max_candidates_per_channel": 10,
+  "keep_best_per_channel": 3,
+  "probe_timeout": 6,
+  "probe_bytes": 1500000,
+  "threads": 60,
+  "groups": {
+    "cctv": "央视频道",
+    "satellite": "卫视频道",
+    "other": "其他频道"
+  },
+  "other_policy": "whitelist",
+  "other_whitelist": [
+    "广东珠江",
+    "广东体育",
+    "湖南经视",
+    "湖南都市",
+    "江苏城市",
+    "深圳都市",
+    "大湾区卫视",
+    "厦门卫视",
+    "南方卫视",
+    "福建海峡卫视",
+    "金鹰卡通",
+    "卡酷少儿",
+    "优漫卡通",
+    "炫动卡通",
+    "CHC家庭影院",
+    "CHC动作电影",
+    "天元围棋",
+    "快乐垂钓"
+  ],
+  "pattern_sources": [
+    {
+      "note": "txiptv 央视整套 CDN（实测 1-15 全通、AAC）",
+      "template": "http://124.165.251.82:85/tsfile/live/%04d_1.m3u8?key=txiptv&playlive=1&authid=0",
+      "map": {
+        "1": "CCTV-1",
+        "2": "CCTV-2",
+        "3": "CCTV-3",
+        "4": "CCTV-4",
+        "5": "CCTV-5",
+        "6": "CCTV-6",
+        "7": "CCTV-7",
+        "8": "CCTV-8",
+        "9": "CCTV-9",
+        "10": "CCTV-10",
+        "11": "CCTV-11",
+        "12": "CCTV-12",
+        "13": "CCTV-13",
+        "14": "CCTV-14",
+        "15": "CCTV-15"
+      }
+    },
+    {
+      "note": "备用节点（部分台可用）",
+      "template": "http://222.169.85.8:9901/tsfile/live/%04d_1.m3u8?key=txiptv&playlive=1&authid=0",
+      "map": {
+        "1": "CCTV-1",
+        "2": "CCTV-2",
+        "15": "CCTV-15",
+        "17": "CCTV-17"
+      }
+    }
+  ]
+}
