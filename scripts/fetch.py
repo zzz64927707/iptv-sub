@@ -162,9 +162,30 @@ def load_upstream():
 
     # 先注入「模板源」（按编号能拼出整套餐的 CDN），这样不会被每频道候选数上限挤掉
     for pat in CFG.get("pattern_sources", []):
-        for idx, nm in (pat.get("map") or {}).items():
+        tpl = pat.get("template") or ""
+        mp = pat.get("map") or {}
+        if not mp:
+            # 无 map 的「单源模板」：names 可为 {频道名:URL}（dict）或 [频道名]（list，template 里 {name} 被频道名替换）
+            names = pat.get("names") or []
+            if isinstance(names, dict):
+                for nm, u in names.items():
+                    if not u.startswith("http"):
+                        continue
+                    bucket = name2urls.setdefault(canon(nm), [])
+                    if u not in bucket:
+                        bucket.insert(0, u)
+            else:
+                for nm in names:
+                    u = tpl.replace("{name}", nm)
+                    if not u.startswith("http"):
+                        continue
+                    bucket = name2urls.setdefault(canon(nm), [])
+                    if u not in bucket:
+                        bucket.insert(0, u)
+            continue
+        for idx, nm in mp.items():
             try:
-                u = pat["template"] % int(idx)
+                u = tpl % int(idx)
             except Exception:
                 continue
             bucket = name2urls.setdefault(nm, [])
