@@ -80,7 +80,8 @@
     "浙江卫视": "http://ali-m-l.cztv.com/channels/lantian/channel001/1080p.m3u8",
     "湖南卫视": "http://hlsal-ldvt.qing.mgtv.com/nn_live/nn_x64/dWlwPTEyNy4wLjAuMSwyNTUuMjU1LjI1NS4yNTUsMTAuMTAuNjAuMTM2LDEzMzQ0LDMxMjE0ODAwMDAsQUFDQyBoaWdoLzEyODAsMCwxLDAsMCwwLDAwMDAwMCwsMQw&srctype=tX",
     "黑龙江卫视": "https://idclive.hljtv.com:4430/live/hljws_own.m3u8"
-   }
+   },
+   "keep": true
   }
  ]
 }

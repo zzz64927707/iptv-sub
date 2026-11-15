@@ -33,6 +33,7 @@ TIMEOUT = int(CFG.get("probe_timeout", 8))
 MAXB = int(CFG.get("probe_bytes", 2_500_000))
 MAXCAND = int(CFG.get("max_candidates_per_channel", 8))
 KEEP = int(CFG.get("keep_best_per_channel", 3))
+KEEP_URLS = set()          # 无条件保留的源 URL（固定频道）
 THREADS = int(CFG.get("threads", 48))
 BUDGET = int(os.environ.get("PROBE_BUDGET", "1500"))  # 秒，防止 Actions 超时
 
@@ -158,12 +159,14 @@ def parse_m3u(text):
 
 
 def load_upstream():
+    global KEEP_URLS
     name2urls = OrderedDict()
-
+    KEEP_URLS = set()          # 无条件保留（不参与测速剔源）的 URL
     # 先注入「模板源」（按编号能拼出整套餐的 CDN），这样不会被每频道候选数上限挤掉
     for pat in CFG.get("pattern_sources", []):
         tpl = pat.get("template") or ""
         mp = pat.get("map") or {}
+        keep = bool(pat.get("keep"))
         if not mp:
             # 无 map 的「单源模板」：names 可为 {频道名:URL}（dict）或 [频道名]（list，template 里 {name} 被频道名替换）
             names = pat.get("names") or []
@@ -174,6 +177,8 @@ def load_upstream():
                     bucket = name2urls.setdefault(canon(nm), [])
                     if u not in bucket:
                         bucket.insert(0, u)
+                    if keep:
+                        KEEP_URLS.add(u)
             else:
                 for nm in names:
                     u = tpl.replace("{name}", nm)
@@ -182,6 +187,8 @@ def load_upstream():
                     bucket = name2urls.setdefault(canon(nm), [])
                     if u not in bucket:
                         bucket.insert(0, u)
+                    if keep:
+                        KEEP_URLS.add(u)
             continue
         for idx, nm in mp.items():
             try:
@@ -479,7 +486,7 @@ def main():
             g = grade(info)
             info = info or {}
             info["grade"] = g
-            if g <= 1:      # 只留 AAC 或有画面但音轨未知的
+            if g <= 1 or u in KEEP_URLS:      # 只留 AAC 或有画面但音轨未知的；固定源无条件保留
                 cands.append((u, info))
         cands.sort(key=lambda x: (x[1]["grade"], x[1]["ttfb"], -x[1].get("kbps", 0)))
         if not cands:
