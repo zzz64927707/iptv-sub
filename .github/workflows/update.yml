@@ -17,7 +17,7 @@ permissions:
 
 concurrency:
   group: iptv-update
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 env:
   CF_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
