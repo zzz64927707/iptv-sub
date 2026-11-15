@@ -37,7 +37,11 @@
   "CHC家庭影院",
   "CHC动作电影",
   "天元围棋",
-  "快乐垂钓"
+  "快乐垂钓",
+  "凤凰资讯",
+  "东莞新闻综合",
+  "甘孜综合",
+  "番禺综合"
  ],
  "pattern_sources": [
   {
@@ -79,7 +83,12 @@
     "吉林卫视": "http://221.7.175.154:8445/tsfile/live/1014_1.m3u8?key=txiptv&playlive=1&authid=0",
     "浙江卫视": "http://ali-m-l.cztv.com/channels/lantian/channel001/1080p.m3u8",
     "湖南卫视": "http://hlsal-ldvt.qing.mgtv.com/nn_live/nn_x64/dWlwPTEyNy4wLjAuMSwyNTUuMjU1LjI1NS4yNTUsMTAuMTAuNjAuMTM2LDEzMzQ0LDMxMjE0ODAwMDAsQUFDQyBoaWdoLzEyODAsMCwxLDAsMCwwLDAwMDAwMCwsMQw&srctype=tX",
-    "黑龙江卫视": "https://idclive.hljtv.com:4430/live/hljws_own.m3u8"
+    "黑龙江卫视": "https://idclive.hljtv.com:4430/live/hljws_own.m3u8",
+    "金鹰卡通": "http://125.43.249.76:9901/tsfile/live/1040_1.m3u8?key=txiptv&playlive=1&authid=0",
+    "凤凰资讯": "http://43.152.224.209/qctv.fengshows.cn/live/0701pin72.flv",
+    "东莞新闻综合": "http://stream.sun0769.com/dgrtv1/mp4tv1_1500.flv",
+    "甘孜综合": "http://tv.drs.ganzitv.com:8100/channellive/gztv.flv",
+    "番禺综合": "http://video.epaper.pybtv.cn:8080/live/rtmp_live_demo.flv"
    },
    "keep": true
   }
