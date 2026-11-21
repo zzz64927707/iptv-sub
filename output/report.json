@@ -1,11 +1,11 @@
 {
- "updated": "2026-11-21 17:43:43",
- "elapsed_sec": 178.8,
+ "updated": "2026-11-21 20:44:51",
+ "elapsed_sec": 149.5,
  "channels": 48,
- "streams": 88,
+ "streams": 85,
  "probed": 2597,
- "alive": 538,
- "aac": 301,
+ "alive": 547,
+ "aac": 309,
  "dropped_channels": [
   "香港卫视",
   "北京卫视",
@@ -63,23 +63,23 @@
  "detail": {
   "CCTV-1": [
    {
-    "url": "http://74.91.26.218:82/live/cctv1hd.m3u8",
-    "ttfb": 0.29,
-    "kbps": 16774,
+    "url": "http://124.165.251.82:85/tsfile/live/0001_1.m3u8?key=txiptv&playlive=1&authid=0",
+    "ttfb": 0.42,
+    "kbps": 480,
+    "video": true,
+    "audio": "aac"
+   },
+   {
+    "url": "https://liveplay-srs.voc.com.cn/hls/tv/134_180adf.m3u8",
+    "ttfb": 1.69,
+    "kbps": 78,
     "video": true,
     "audio": "aac"
    },
    {
     "url": "https://liveplay-srs.voc.com.cn/hls/tv/168_e04f1e.m3u8",
-    "ttfb": 1.02,
-    "kbps": 81,
-    "video": true,
-    "audio": "aac"
-   },
-   {
-    "url": "http://124.165.251.82:85/tsfile/live/0001_1.m3u8?key=txiptv&playlive=1&authid=0",
-    "ttfb": 1.04,
-    "kbps": 357,
+    "ttfb": 1.71,
+    "kbps": 76,
     "video": true,
     "audio": "aac"
    }
@@ -87,21 +87,14 @@
   "CCTV-2": [
    {
     "url": "http://124.165.251.82:85/tsfile/live/0002_1.m3u8?key=txiptv&playlive=1&authid=0",
-    "ttfb": 0.38,
-    "kbps": 217,
-    "video": true,
-    "audio": "aac"
-   },
-   {
-    "url": "http://222.169.85.8:9901/tsfile/live/0002_1.m3u8?key=txiptv&playlive=1&authid=0",
-    "ttfb": 1.42,
-    "kbps": 1226,
+    "ttfb": 0.42,
+    "kbps": 565,
     "video": true,
     "audio": "aac"
    },
    {
     "url": "http://107.150.60.122/live/cctv2hd.m3u8",
-    "ttfb": 0.25665950775146484,
+    "ttfb": 0.21364355087280273,
     "kbps": null,
     "video": null,
     "audio": null
@@ -110,15 +103,15 @@
   "CCTV-3": [
    {
     "url": "http://74.91.26.218:82/live/cctv3hd.m3u8",
-    "ttfb": 0.26,
-    "kbps": 22673,
+    "ttfb": 0.22,
+    "kbps": 24015,
     "video": true,
     "audio": "aac"
    },
    {
     "url": "http://124.165.251.82:85/tsfile/live/0003_1.m3u8?key=txiptv&playlive=1&authid=0",
-    "ttfb": 0.43,
-    "kbps": 392,
+    "ttfb": 0.42,
+    "kbps": 424,
     "video": true,
     "audio": "aac"
    }
@@ -126,14 +119,14 @@
   "CCTV-4": [
    {
     "url": "http://124.165.251.82:85/tsfile/live/0004_1.m3u8?key=txiptv&playlive=1&authid=0",
-    "ttfb": 3.32,
-    "kbps": 163,
+    "ttfb": 0.42,
+    "kbps": 391,
     "video": true,
     "audio": "aac"
    },
    {
     "url": "http://107.150.60.122/live/cctv4hd.m3u8",
-    "ttfb": 0.2484264373779297,
+    "ttfb": 0.16238784790039062,
     "kbps": null,
     "video": null,
     "audio": null
@@ -142,24 +135,24 @@
   "CCTV-5": [
    {
     "url": "http://124.165.251.82:85/tsfile/live/0005_1.m3u8?key=txiptv&playlive=1&authid=0",
-    "ttfb": 0.41,
-    "kbps": 351,
+    "ttfb": 0.43,
+    "kbps": 682,
     "video": true,
     "audio": "aac"
    },
    {
     "url": "http://gmxw.7766.org:808/hls/93/index.m3u8",
-    "ttfb": 0.8128540515899658,
-    "kbps": null,
-    "video": null,
-    "audio": null
+    "ttfb": 3.21,
+    "kbps": 153,
+    "video": true,
+    "audio": "mp2"
    }
   ],
   "CCTV-5+": [
    {
     "url": "http://120.76.248.139/live/bfgd/4200000246.m3u8",
-    "ttfb": 0.37,
-    "kbps": 6918,
+    "ttfb": 0.49,
+    "kbps": 6339,
     "video": true,
     "audio": "other"
    }
@@ -167,14 +160,14 @@
   "CCTV-6": [
    {
     "url": "http://124.165.251.82:85/tsfile/live/0006_1.m3u8?key=txiptv&playlive=1&authid=0",
-    "ttfb": 0.41,
-    "kbps": 414,
+    "ttfb": 2.47,
+    "kbps": 654,
     "video": true,
     "audio": "aac"
    },
    {
     "url": "http://198.204.228.26/live/cctv6hd.m3u8",
-    "ttfb": 0.2682173252105713,
+    "ttfb": 99.0,
     "kbps": null,
     "video": null,
     "audio": null
@@ -183,14 +176,14 @@
   "CCTV-7": [
    {
     "url": "http://124.165.251.82:85/tsfile/live/0007_1.m3u8?key=txiptv&playlive=1&authid=0",
-    "ttfb": 1.07,
-    "kbps": 266,
+    "ttfb": 0.42,
+    "kbps": 342,
     "video": true,
     "audio": "aac"
    },
    {
     "url": "http://63.141.230.178:82/gslb/zbdq5.m3u8?id=cctv7hd",
-    "ttfb": 0.4020981788635254,
+    "ttfb": 0.5446066856384277,
     "kbps": null,
     "video": null,
     "audio": null
@@ -199,8 +192,8 @@
   "CCTV-8": [
    {
     "url": "http://124.165.251.82:85/tsfile/live/0008_1.m3u8?key=txiptv&playlive=1&authid=0",
-    "ttfb": 1.04,
-    "kbps": 330,
+    "ttfb": 0.42,
+    "kbps": 195,
     "video": true,
     "audio": "aac"
    }
@@ -208,22 +201,22 @@
   "CCTV-9": [
    {
     "url": "https://xykt-fix.github.io/Y77.m3u8",
-    "ttfb": 0.12,
-    "kbps": 526,
+    "ttfb": 0.1,
+    "kbps": 192,
     "video": true,
     "audio": "aac"
    },
    {
     "url": "http://74.91.26.218:82/live/cctv9hd.m3u8",
-    "ttfb": 0.26,
-    "kbps": 21002,
+    "ttfb": 0.18,
+    "kbps": 37932,
     "video": true,
     "audio": "aac"
    },
    {
     "url": "http://124.165.251.82:85/tsfile/live/0009_1.m3u8?key=txiptv&playlive=1&authid=0",
-    "ttfb": 0.4,
-    "kbps": 288,
+    "ttfb": 0.42,
+    "kbps": 757,
     "video": true,
     "audio": "aac"
    }
@@ -231,14 +224,14 @@
   "CCTV-10": [
    {
     "url": "http://124.165.251.82:85/tsfile/live/0010_1.m3u8?key=txiptv&playlive=1&authid=0",
-    "ttfb": 0.4,
-    "kbps": 317,
+    "ttfb": 0.42,
+    "kbps": 621,
     "video": true,
     "audio": "aac"
    },
    {
     "url": "http://74.91.26.218:82/live/cctv10hd.m3u8",
-    "ttfb": 0.24594616889953613,
+    "ttfb": 0.18289470672607422,
     "kbps": null,
     "video": null,
     "audio": null
@@ -247,14 +240,14 @@
   "CCTV-11": [
    {
     "url": "http://124.165.251.82:85/tsfile/live/0011_1.m3u8?key=txiptv&playlive=1&authid=0",
-    "ttfb": 0.4,
-    "kbps": 530,
+    "ttfb": 0.44,
+    "kbps": 320,
     "video": true,
     "audio": "aac"
    },
    {
     "url": "http://74.91.26.218:82/live/cctv11hd.m3u8",
-    "ttfb": 1.011890172958374,
+    "ttfb": 0.18850064277648926,
     "kbps": null,
     "video": null,
     "audio": null
@@ -263,15 +256,15 @@
   "CCTV-12": [
    {
     "url": "http://74.91.26.218:82/live/cctv12hd.m3u8",
-    "ttfb": 0.26,
-    "kbps": 21445,
+    "ttfb": 0.16,
+    "kbps": 15630,
     "video": true,
     "audio": "aac"
    },
    {
     "url": "http://124.165.251.82:85/tsfile/live/0012_1.m3u8?key=txiptv&playlive=1&authid=0",
-    "ttfb": 0.42,
-    "kbps": 293,
+    "ttfb": 1.15,
+    "kbps": 614,
     "video": true,
     "audio": "aac"
    }
@@ -279,15 +272,15 @@
   "CCTV-13": [
    {
     "url": "http://124.165.251.82:85/tsfile/live/0013_1.m3u8?key=txiptv&playlive=1&authid=0",
-    "ttfb": 0.4,
-    "kbps": 231,
+    "ttfb": 0.43,
+    "kbps": 122,
     "video": true,
     "audio": "aac"
    },
    {
     "url": "http://ali-m-l.cztv.com/channels/lantian/channel21/1080p.m3u8",
-    "ttfb": 1.05,
-    "kbps": 8451,
+    "ttfb": 1.22,
+    "kbps": 6483,
     "video": true,
     "audio": "aac"
    }
@@ -295,14 +288,14 @@
   "CCTV-14": [
    {
     "url": "http://124.165.251.82:85/tsfile/live/0014_1.m3u8?key=txiptv&playlive=1&authid=0",
-    "ttfb": 0.39,
-    "kbps": 283,
+    "ttfb": 0.43,
+    "kbps": 536,
     "video": true,
     "audio": "aac"
    },
    {
     "url": "http://204.12.221.218:8181/3m1080p/cctv14.m3u8",
-    "ttfb": 0.2468702793121338,
+    "ttfb": 99.0,
     "kbps": null,
     "video": null,
     "audio": null
@@ -312,20 +305,13 @@
    {
     "url": "http://124.165.251.82:85/tsfile/live/0015_1.m3u8?key=txiptv&playlive=1&authid=0",
     "ttfb": 0.42,
-    "kbps": 213,
-    "video": true,
-    "audio": "aac"
-   },
-   {
-    "url": "http://222.169.85.8:9901/tsfile/live/0015_1.m3u8?key=txiptv&playlive=1&authid=0",
-    "ttfb": 0.77,
-    "kbps": 3850,
+    "kbps": 611,
     "video": true,
     "audio": "aac"
    },
    {
     "url": "http://gmxw.7766.org:808/hls/102/index.m3u8",
-    "ttfb": 2.303284168243408,
+    "ttfb": 1.1316983699798584,
     "kbps": null,
     "video": null,
     "audio": null
@@ -334,54 +320,54 @@
   "CCTV-16": [
    {
     "url": "http://gmxw.7766.org:808/hls/169/index.m3u8",
-    "ttfb": 1.6,
-    "kbps": 284,
+    "ttfb": 1.33,
+    "kbps": 106,
     "video": true,
     "audio": "mp2"
    }
   ],
   "CCTV-17": [
    {
-    "url": "http://222.169.85.8:9901/tsfile/live/0017_1.m3u8?key=txiptv&playlive=1&authid=0",
-    "ttfb": 1.29,
-    "kbps": 3107,
-    "video": true,
-    "audio": "aac"
-   },
-   {
     "url": "https://live.264788.xyz/channel/cctv17?streamid=f9c36f1e95b5b35eac89cc89583e7c0a&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk",
-    "ttfb": 0.98,
-    "kbps": 1074,
+    "ttfb": 1.27,
+    "kbps": 822,
     "video": null,
     "audio": null
    },
    {
     "url": "https://live.264788.xyz/channel/cctv17?streamid=348c8c0c04a6d2b900e5a3bcb4af8ce1&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk",
-    "ttfb": 0.98,
-    "kbps": 1073,
+    "ttfb": 1.29,
+    "kbps": 814,
+    "video": null,
+    "audio": null
+   },
+   {
+    "url": "http://74.91.26.218:82/live/cctv17hd.m3u8",
+    "ttfb": 0.1801154613494873,
+    "kbps": null,
     "video": null,
     "audio": null
    }
   ],
   "CGTN": [
    {
-    "url": "https://0472.org/hls/cgtnd.m3u8",
-    "ttfb": 0.08,
-    "kbps": 24315,
+    "url": "https://0472.org/hls/cgtnx.m3u8",
+    "ttfb": 0.2,
+    "kbps": 19507,
     "video": true,
     "audio": "aac"
    },
    {
-    "url": "https://0472.org/hls/cgtnx.m3u8",
-    "ttfb": 0.08,
-    "kbps": 21134,
+    "url": "https://0472.org/hls/cgtnd.m3u8",
+    "ttfb": 0.22,
+    "kbps": 20204,
     "video": true,
     "audio": "aac"
    },
    {
     "url": "https://0472.org/hls/cgtn.m3u8",
-    "ttfb": 0.14,
-    "kbps": 26088,
+    "ttfb": 0.28,
+    "kbps": 40954,
     "video": true,
     "audio": "aac"
    }
@@ -389,38 +375,31 @@
   "人间卫视": [
    {
     "url": "http://61.216.67.119:1935/bltvhd/bltv1/chunklist_w1266569526.m3u",
-    "ttfb": 0.39,
-    "kbps": 3193,
+    "ttfb": 0.59,
+    "kbps": 1933,
     "video": true,
     "audio": "aac"
    },
    {
     "url": "https://5ddce30eb4b55.streamlock.net/bltvhd/bltv1/chunklist_w511254805.m3u8",
-    "ttfb": 0.61,
-    "kbps": 3179,
+    "ttfb": 0.92,
+    "kbps": 1934,
     "video": true,
     "audio": "aac"
    }
   ],
   "内蒙古卫视": [
    {
-    "url": "http://play1-qk.nmtv.cn/live/1769652018126032.m3u8",
-    "ttfb": 1.05,
-    "kbps": 6211,
-    "video": true,
-    "audio": "aac"
-   },
-   {
     "url": "https://live.264788.xyz/channel/neimengguweishi?streamid=3e7340acf8869ac1c7dad1bb836dcd35&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk",
-    "ttfb": 0.17,
-    "kbps": 6285,
+    "ttfb": 0.15,
+    "kbps": 7111,
     "video": null,
     "audio": null
    },
    {
     "url": "https://live.264788.xyz/channel/neimengguweishi?streamid=81a015dbecf3031d7d847b7a9b059f67&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk",
-    "ttfb": 0.17,
-    "kbps": 6136,
+    "ttfb": 0.19,
+    "kbps": 5622,
     "video": null,
     "audio": null
    }
@@ -428,47 +407,47 @@
   "吉林卫视": [
    {
     "url": "http://221.7.175.154:8445/tsfile/live/1014_1.m3u8?key=txiptv&playlive=1&authid=0",
-    "ttfb": 0.4,
-    "kbps": 6441,
+    "ttfb": 0.47,
+    "kbps": 4254,
     "video": true,
     "audio": "mp2"
    }
   ],
   "四川卫视": [
    {
-    "url": "https://live.264788.xyz/channel/sichuanweishi4k?streamid=401bf692a1a8b91298f26077d53316d6&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk",
-    "ttfb": 0.15,
-    "kbps": 7219,
+    "url": "https://live.264788.xyz/channel/sichuanweishi4k?streamid=21be5901ee81559c827dc84e46f26452&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk",
+    "ttfb": 0.14,
+    "kbps": 7660,
     "video": null,
     "audio": null
    },
    {
-    "url": "https://live.264788.xyz/channel/sichuanweishi4k?streamid=21be5901ee81559c827dc84e46f26452&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk",
+    "url": "https://live.264788.xyz/channel/sichuanweishi4k?streamid=401bf692a1a8b91298f26077d53316d6&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk",
     "ttfb": 0.15,
-    "kbps": 6978,
+    "kbps": 7070,
     "video": null,
     "audio": null
    }
   ],
   "宁夏卫视": [
    {
+    "url": "https://live.264788.xyz/channel/ningxiaweishi?streamid=e1236348f815c36a0429357e5b5c5f10&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk",
+    "ttfb": 0.14,
+    "kbps": 7405,
+    "video": null,
+    "audio": null
+   },
+   {
     "url": "https://live.264788.xyz/channel/ningxiaweishi?streamid=551474d02bee1c160e1692e22c45ddba&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk",
     "ttfb": 0.14,
-    "kbps": 7386,
+    "kbps": 7293,
     "video": null,
     "audio": null
    },
    {
     "url": "https://live.264788.xyz/channel/ningxiaweishi?streamid=1b2952717a920173e66d4a348f9dcb5c&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk",
-    "ttfb": 0.15,
-    "kbps": 7021,
-    "video": null,
-    "audio": null
-   },
-   {
-    "url": "https://live.264788.xyz/channel/ningxiaweishi?streamid=e1236348f815c36a0429357e5b5c5f10&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk",
-    "ttfb": 0.17,
-    "kbps": 6307,
+    "ttfb": 0.16,
+    "kbps": 6434,
     "video": null,
     "audio": null
    }
@@ -476,8 +455,8 @@
   "安多卫视": [
    {
     "url": "https://liveout.xntv.tv/a65jur/96iln2.m3u8",
-    "ttfb": 1.09,
-    "kbps": 2995,
+    "ttfb": 2.03,
+    "kbps": 596,
     "video": true,
     "audio": "aac"
    }
@@ -485,22 +464,22 @@
   "山西卫视": [
    {
     "url": "http://119.39.9.8:9901/tsfile/live/0118_1.m3u8",
-    "ttfb": 0.56,
-    "kbps": 1853,
+    "ttfb": 0.42,
+    "kbps": 2188,
     "video": true,
     "audio": "aac"
    },
    {
-    "url": "https://live.264788.xyz/channel/shanxiweishi?streamid=69e002ac7467d661ff7ad0671ed43f16&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk",
+    "url": "https://live.264788.xyz/channel/shanxiweishi?streamid=eeb7d60ca6e0db131ea7a092a3cd28d2&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk",
     "ttfb": 0.14,
-    "kbps": 7237,
+    "kbps": 7600,
     "video": null,
     "audio": null
    },
    {
-    "url": "https://live.264788.xyz/channel/shanxiweishi?streamid=eeb7d60ca6e0db131ea7a092a3cd28d2&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk",
-    "ttfb": 0.16,
-    "kbps": 6380,
+    "url": "https://live.264788.xyz/channel/shanxiweishi?streamid=69e002ac7467d661ff7ad0671ed43f16&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk",
+    "ttfb": 0.15,
+    "kbps": 6809,
     "video": null,
     "audio": null
    }
@@ -508,8 +487,8 @@
   "广东卫视": [
    {
     "url": "https://txmov2.a.kwimgs.com/upic/2023/01/26/09/BMjAyMzAxMjYwOTE3NDVfNzM5MzQzNzIyXzk0NjI1OTUwNTA3XzBfMw==_b_B81ddda927d33445d544befd008e60109.mp4",
-    "ttfb": 0.49,
-    "kbps": 2135,
+    "ttfb": 0.48,
+    "kbps": 2198,
     "video": null,
     "audio": null
    }
@@ -517,22 +496,22 @@
   "延边卫视": [
    {
     "url": "http://120.76.248.139/live/bfgd/4200000117.m3u8",
-    "ttfb": 0.37,
-    "kbps": 8189,
+    "ttfb": 0.51,
+    "kbps": 6605,
     "video": true,
     "audio": "aac"
    },
    {
-    "url": "http://l.cztvcloud.com/channels/lantian/SXxinchang2/720p.m3u8#",
-    "ttfb": 1.1,
-    "kbps": 4058,
+    "url": "http://l.cztvcloud.com/channels/lantian/SXxinchang2/720p.m3u8",
+    "ttfb": 2.07,
+    "kbps": 2986,
     "video": true,
     "audio": "aac"
    },
    {
     "url": "https://srs.iyb983.cn:443/video/CYS/index.m3u8",
-    "ttfb": 1.89,
-    "kbps": 8414,
+    "ttfb": 2.63,
+    "kbps": 9139,
     "video": true,
     "audio": "aac"
    }
@@ -540,8 +519,8 @@
   "新疆卫视": [
    {
     "url": "https://live.264788.xyz/channel/xinjiangweishi?streamid=4f481f56ae39ce5d24203471de9df635&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk",
-    "ttfb": 0.15,
-    "kbps": 6775,
+    "ttfb": 0.14,
+    "kbps": 7539,
     "video": null,
     "audio": null
    }
@@ -549,8 +528,8 @@
   "江苏卫视": [
    {
     "url": "http://8.138.7.223/tv/jsws4k.php",
-    "ttfb": 1.58,
-    "kbps": 631,
+    "ttfb": 1.79,
+    "kbps": 227,
     "video": null,
     "audio": null
    }
@@ -558,15 +537,15 @@
   "江西卫视": [
    {
     "url": "http://112.27.5.218:9901/tsfile/live/faacts/0138_1.m3u8?key=txiptv&playlive=1&authid=0",
-    "ttfb": 0.31,
-    "kbps": 3167,
+    "ttfb": 0.41,
+    "kbps": 2885,
     "video": true,
     "audio": "aac"
    },
    {
     "url": "https://live.264788.xyz/channel/jiangxiweishi?streamid=555198f31caa33506ac6abb70d788959&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk",
-    "ttfb": 0.16,
-    "kbps": 6546,
+    "ttfb": 0.18,
+    "kbps": 5939,
     "video": null,
     "audio": null
    }
@@ -574,15 +553,15 @@
   "河北卫视": [
    {
     "url": "http://event.pull.hebtv.com/jishi/weishi_tingyun.m3u8",
-    "ttfb": 0.97,
-    "kbps": 6093,
+    "ttfb": 1.05,
+    "kbps": 4073,
     "video": true,
     "audio": "aac"
    },
    {
     "url": "https://event.pull.hebtv.com/live/live101.m3u8",
-    "ttfb": 1.23,
-    "kbps": 6809,
+    "ttfb": 2.32,
+    "kbps": 5422,
     "video": true,
     "audio": "aac"
    }
@@ -590,22 +569,22 @@
   "浙江卫视": [
    {
     "url": "http://ali-m-l.cztv.com/channels/lantian/channel001/1080p.m3u8",
-    "ttfb": 0.47,
-    "kbps": 8594,
+    "ttfb": 0.65,
+    "kbps": 6435,
     "video": true,
     "audio": "aac"
    },
    {
     "url": "http://ali-m-l.cztv.com/channels/lantian/channel01/1080p.m3u8",
-    "ttfb": 0.47,
-    "kbps": 4651,
+    "ttfb": 0.7,
+    "kbps": 2949,
     "video": true,
     "audio": "aac"
    },
    {
     "url": "https://ali-m-l.cztv.com/channels/lantian/channel001/1080p.m3u8",
-    "ttfb": 0.51,
-    "kbps": 7801,
+    "ttfb": 0.87,
+    "kbps": 6033,
     "video": true,
     "audio": "aac"
    }
@@ -613,8 +592,8 @@
   "海峡卫视": [
    {
     "url": "http://8.138.7.223/tv/hxws.m3u8",
-    "ttfb": 0.37,
-    "kbps": 535,
+    "ttfb": 0.48,
+    "kbps": 2576,
     "video": null,
     "audio": null
    }
@@ -622,22 +601,22 @@
   "湖南卫视": [
    {
     "url": "https://txmov2.a.kwimgs.com/bs3/video-hls/5199687338554291078_hlsb.m3u8",
-    "ttfb": 0.66,
-    "kbps": 25192,
+    "ttfb": 0.67,
+    "kbps": 18511,
     "video": true,
     "audio": "aac"
    },
    {
     "url": "http://hlsal-ldvt.qing.mgtv.com/nn_live/nn_x64/dWlwPTEyNy4wLjAuMSZ1aWQ9cWluZy1jbXMmbm5fdGltZXpvbmU9OCZjZG5leF9pZD1hbF9obHNfbGR2dCZ1dWlkPTliODY4NmU5ZTM2YzYwMmMmZT02OTE0NjA0JnY9MSZpZD1ITldTWkdTVCZzPTcwN2RiYTc2YzJjNmJmMTQ4MmUyZGYzOWU2NWM3YWFi/HNWSZGST.m3u8",
-    "ttfb": 1.03,
-    "kbps": 12045,
+    "ttfb": 0.82,
+    "kbps": 35762,
     "video": true,
     "audio": "aac"
    },
    {
     "url": "http://8.138.7.223/tv/api.php?id=hnws4k",
-    "ttfb": 5.82,
-    "kbps": 180,
+    "ttfb": 9.28,
+    "kbps": 113,
     "video": null,
     "audio": null
    }
@@ -645,8 +624,8 @@
   "西藏卫视": [
    {
     "url": "https://live.264788.xyz/channel/xizangweishi?streamid=4b4e8ea919f1cfd5e43deed1d1675251&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk",
-    "ttfb": 0.16,
-    "kbps": 6564,
+    "ttfb": 0.14,
+    "kbps": 7485,
     "video": null,
     "audio": null
    }
@@ -654,8 +633,8 @@
   "贵州卫视": [
    {
     "url": "https://live.264788.xyz/channel/guizhouweishi?streamid=091bd59ea031989839c23459bb8cc9d4&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk",
-    "ttfb": 0.2,
-    "kbps": 5218,
+    "ttfb": 0.18,
+    "kbps": 5837,
     "video": null,
     "audio": null
    }
@@ -663,8 +642,8 @@
   "辽宁卫视": [
    {
     "url": "http://61.136.172.236:9901/tsfile/live/0121_1.m3u8?key=txiptv&playlive=1&authid=0",
-    "ttfb": 0.44,
-    "kbps": 40,
+    "ttfb": 0.59,
+    "kbps": 65,
     "video": null,
     "audio": null
    }
@@ -672,8 +651,8 @@
   "陕西卫视": [
    {
     "url": "https://live.264788.xyz/channel/shaanxiweishi?streamid=9dc887dba8ecb4e4143baf4f2373800c&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk",
-    "ttfb": 0.15,
-    "kbps": 6922,
+    "ttfb": 0.14,
+    "kbps": 7419,
     "video": null,
     "audio": null
    }
@@ -690,8 +669,8 @@
   "CCTV怀旧剧场": [
    {
     "url": "https://live.264788.xyz/channel/huaijiujuchang?streamid=7e5d1abdddde08f588234f3f640f75ff&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk",
-    "ttfb": 0.17,
-    "kbps": 6030,
+    "ttfb": 0.16,
+    "kbps": 6533,
     "video": null,
     "audio": null
    }
@@ -700,7 +679,7 @@
    {
     "url": "https://live.264788.xyz/channel/yangshiwenhuajingpin?streamid=bc185d1ef1e528922e83efd845006277&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk",
     "ttfb": 0.15,
-    "kbps": 7091,
+    "kbps": 6802,
     "video": null,
     "audio": null
    }
@@ -708,8 +687,8 @@
   "CCTV第一剧场": [
    {
     "url": "https://live.264788.xyz/channel/diyijuchang?streamid=d81e188b59ece96b7e8f1ce34aea3ef8&livekey=01WgOR41rriMmMkzNsd0UoaxJRwetZdxIvtVk",
-    "ttfb": 0.15,
-    "kbps": 7074,
+    "ttfb": 0.2,
+    "kbps": 5135,
     "video": null,
     "audio": null
    }
@@ -717,15 +696,15 @@
   "东莞新闻综合": [
    {
     "url": "https://stream.sun0769.com/dgrtv1/mp4tv1_800/index.m3u8",
-    "ttfb": 2.62,
-    "kbps": 2935,
+    "ttfb": 4.49,
+    "kbps": 1127,
     "video": true,
     "audio": "aac"
    },
    {
     "url": "http://stream.sun0769.com/dgrtv1/mp4tv1_1500.flv",
-    "ttfb": 1.38,
-    "kbps": 761,
+    "ttfb": 4.21,
+    "kbps": 248,
     "video": true,
     "audio": null
    }
@@ -734,7 +713,7 @@
    {
     "url": "http://43.152.224.209/qctv.fengshows.cn/live/0701pin72.flv",
     "ttfb": 0.75,
-    "kbps": 1396,
+    "kbps": 1394,
     "video": true,
     "audio": null
    }
@@ -742,8 +721,8 @@
   "甘孜综合": [
    {
     "url": "https://m3u8channel.ganzitv.com/nmip-media/channellive/channel1/playlist.m3u8",
-    "ttfb": 2.62,
-    "kbps": 6739,
+    "ttfb": 2.69,
+    "kbps": 5813,
     "video": true,
     "audio": "aac"
    },
